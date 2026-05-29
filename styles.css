@@ -338,7 +338,9 @@ p  { color: var(--text-secondary); line-height: 1.75; }
   align-items: center;
   padding-top: var(--nav-h);
   overflow: hidden;
-  background: var(--bg-primary);
+  background:
+    linear-gradient(to right, rgba(0,0,0,0.88) 45%, rgba(0,0,0,0.55) 100%),
+    url('images/hero-bg.jpg') center center / cover no-repeat;
 }
 .hero canvas {
   position: absolute;
