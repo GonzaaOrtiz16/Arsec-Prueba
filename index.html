@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ARSEC Seguridad Privada — Más de 30 años protegiendo empresas, bancos, hospitales y countries en Buenos Aires. Seguridad presencial y virtual 24/7.">
+  <title>ARSEC Seguridad Privada | Protección Corporativa de Élite</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════
+       NAVBAR
+  ════════════════════════════════════════ -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <img src="images/logo.jpg" alt="ARSEC Seguridad Privada" height="44">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#clientes" class="nav-link">Clientes</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+      <a href="#contacto" class="btn-nav-cta">Solicitar Presupuesto</a>
+      <button class="hamburger" id="hamburger" aria-label="Menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#clientes" class="nav-link">Clientes</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        <li><a href="#contacto" class="btn-nav-cta">Solicitar Presupuesto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════ -->
+  <section id="hero" class="hero">
+    <canvas id="particleCanvas"></canvas>
+    <div class="hex-grid"></div>
+    <div class="hero-radial"></div>
+
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="label-terminal reveal-hero" style="--delay:0s">[ PROTECCIÓN DE NIVEL CORPORATIVO ]</div>
+        <h1 class="hero-title reveal-hero" style="--delay:0.15s">
+          SEGURIDAD A LA MEDIDA<br>DE TU EMPRESA
+        </h1>
+        <p class="hero-subtitle reveal-hero" style="--delay:0.3s">
+          Más de 30 años protegiendo empresas, bancos, hospitales y countries en Buenos Aires.<br>
+          Personal habilitado. Monitoreo 24/7.
+        </p>
+        <div class="hero-ctas reveal-hero" style="--delay:0.45s">
+          <a href="#contacto" class="btn-primary">Pedí tu Presupuesto</a>
+          <a href="#servicios" class="btn-outline">Ver Servicios</a>
+        </div>
+        <div class="hero-stats reveal-hero" style="--delay:0.6s">
+          <div class="hero-stat">
+            <span class="hero-stat-value">30+</span>
+            <span class="hero-stat-label">Años</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-value">500+</span>
+            <span class="hero-stat-label">Clientes</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-value">24/7</span>
+            <span class="hero-stat-label">Monitoreo</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-value">100%</span>
+            <span class="hero-stat-label">Habilitado</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal-hero" style="--delay:0.3s">
+        <div class="scanner-widget">
+          <div class="scanner-scan-line"></div>
+          <div class="corner corner--tl"></div>
+          <div class="corner corner--tr"></div>
+          <div class="corner corner--bl"></div>
+          <div class="corner corner--br"></div>
+
+          <div class="scanner-head">
+            <span class="scanner-pulse"></span>
+            <span>ARSEC SYS &nbsp;//&nbsp; ONLINE</span>
+            <span class="scanner-time">24/7</span>
+          </div>
+
+          <div class="scanner-main">
+            <div class="scanner-shield-icon">
+              <svg viewBox="0 0 100 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 6 L88 24 L88 58 C88 80 71 97 50 106 C29 97 12 80 12 58 L12 24 Z"
+                  fill="rgba(204,21,21,0.07)" stroke="rgba(204,21,21,0.5)" stroke-width="1.5"/>
+                <path d="M50 16 L80 32 L80 58 C80 76 66 91 50 99 C34 91 20 76 20 58 L20 32 Z"
+                  fill="rgba(204,21,21,0.05)" stroke="rgba(204,21,21,0.25)" stroke-width="1"/>
+                <path d="M34 56 L46 68 L68 42"
+                  stroke="#CC1515" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <div class="scanner-pct">100%</div>
+              <div class="scanner-secure">SEGURO</div>
+            </div>
+          </div>
+
+          <div class="scanner-rows">
+            <div class="scanner-row">
+              <span class="sr-label">NIVEL DE SEGURIDAD</span>
+              <span class="sr-val sr-red">MÁXIMO</span>
+            </div>
+            <div class="scanner-bar-wrap">
+              <div class="scanner-bar-fill"></div>
+            </div>
+            <div class="scanner-row">
+              <span class="sr-label">AMENAZAS DETECTADAS</span>
+              <span class="sr-val sr-green">NINGUNA</span>
+            </div>
+            <div class="scanner-row">
+              <span class="sr-label">COBERTURA</span>
+              <span class="sr-val">24/7 · 365 días</span>
+            </div>
+            <div class="scanner-row">
+              <span class="sr-label">PERSONAL</span>
+              <span class="sr-val sr-blink">■ EN LÍNEA</span>
+            </div>
+          </div>
+
+          <div class="scanner-foot">// PROTECCIÓN CORPORATIVA GARANTIZADA</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span class="label-terminal" style="font-size:9px">SCROLL</span>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       CLIENTES / SOCIAL PROOF
+  ════════════════════════════════════════ -->
+  <section id="clientes" class="clients-section">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="label-terminal">[ EMPRESAS QUE CONFÍAN EN NOSOTROS ]</div>
+        <h2>EMPRESAS LÍDERES NOS ELIGEN</h2>
+      </div>
+    </div>
+
+    <div class="marquee-outer">
+      <div class="marquee-track" id="marqueeTrack">
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/bancopiano.webp" alt="Banco Piano" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/galicia.png" alt="Banco Galicia" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/britanico.png" alt="Hospital Británico" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/stambulian.png" alt="Stamboullian" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/bakermckenzie.png" alt="Baker McKenzie" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/molino.jpg" alt="Molinos Cañuelas" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/nec.png" alt="NEC" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/comafi.png" alt="COMAFI" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/rga.png" alt="RGA" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/uces.png" alt="UCES" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/rossi.png" alt="Rossi" loading="lazy"></div>
+        <!-- duplicado para loop infinito -->
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/bancopiano.webp" alt="Banco Piano" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/galicia.png" alt="Banco Galicia" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/britanico.png" alt="Hospital Británico" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/stambulian.png" alt="Stamboullian" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/bakermckenzie.png" alt="Baker McKenzie" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/molino.jpg" alt="Molinos Cañuelas" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/nec.png" alt="NEC" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/comafi.png" alt="COMAFI" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/rga.png" alt="RGA" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/uces.png" alt="UCES" loading="lazy"></div>
+        <div class="client-logo"><img src="https://www.arsec.com.ar/clientes/rossi.png" alt="Rossi" loading="lazy"></div>
+      </div>
+    </div>
+
+    <div class="section-container">
+      <div class="google-rating reveal">
+        <span class="google-stars">★★★★☆</span>
+        <span class="google-text">113 reseñas de Google · Calificación 4.0/5</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       SERVICIOS — FLIP CARDS
+  ════════════════════════════════════════ -->
+  <section id="servicios" class="services-section">
+    <div class="hex-grid hex-grid--section"></div>
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="label-terminal">[ SOLUCIONES DE SEGURIDAD ]</div>
+        <h2>NUESTROS SERVICIOS</h2>
+        <p class="section-desc">Cobertura integral para cada necesidad de seguridad corporativa</p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Card 1 -->
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front svc--1">
+              <div class="svc-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l7 4v6c0 4.5-3.5 8-7 10C5.5 20 2 16.5 2 12V6l7-4z"/><path d="M9 12l2 2 4-4"/></svg>
+              </div>
+              <h3>Seguridad Presencial</h3>
+              <div class="label-terminal svc-hint">[ TAP PARA VER MÁS ]</div>
+            </div>
+            <div class="flip-card-back">
+              <div class="flip-back-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l7 4v6c0 4.5-3.5 8-7 10C5.5 20 2 16.5 2 12V6l7-4z"/></svg>
+              </div>
+              <h3>Seguridad Presencial</h3>
+              <p>Personal habilitado y capacitado para empresas, oficinas, hospitales, bancos y countries. Protocolos de emergencia personalizados.</p>
+              <div class="svc-tags">
+                <span>Control de Accesos</span>
+                <span>Vigilancia</span>
+                <span>Emergencias</span>
+              </div>
+              <a href="#contacto" class="btn-svc">Consultar →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front svc--2">
+              <div class="svc-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="5" width="16" height="11" rx="2"/><path d="M18 9l4-2v7l-4-2"/><circle cx="9" cy="10.5" r="1.5"/></svg>
+              </div>
+              <h3>Seguridad Virtual</h3>
+              <div class="label-terminal svc-hint">[ TAP PARA VER MÁS ]</div>
+            </div>
+            <div class="flip-card-back">
+              <div class="flip-back-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="5" width="16" height="11" rx="2"/><path d="M18 9l4-2v7l-4-2"/></svg>
+              </div>
+              <h3>Seguridad Virtual</h3>
+              <p>Monitoreo en tiempo real de cámaras de seguridad desde nuestra central de control. Respuesta inmediata ante cualquier situación anormal.</p>
+              <div class="svc-tags">
+                <span>CCTV 24/7</span>
+                <span>Central de Control</span>
+                <span>Respuesta Inmediata</span>
+              </div>
+              <a href="#contacto" class="btn-svc">Consultar →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front svc--3">
+              <div class="svc-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/><circle cx="12" cy="16" r="1.5"/></svg>
+              </div>
+              <h3>Custodia de Valores</h3>
+              <div class="label-terminal svc-hint">[ TAP PARA VER MÁS ]</div>
+            </div>
+            <div class="flip-card-back">
+              <div class="flip-back-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg>
+              </div>
+              <h3>Custodia de Valores</h3>
+              <p>Custodia y transporte seguro de valores con personal especializado y protocolos certificados.</p>
+              <div class="svc-tags">
+                <span>Valores</span>
+                <span>Transporte</span>
+                <span>Alta Seguridad</span>
+              </div>
+              <a href="#contacto" class="btn-svc">Consultar →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front svc--4">
+              <div class="svc-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8 2 5 5 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-4-3-7-7-7z"/><path d="M9 9h1v4h1m0-4h1"/><circle cx="12" cy="9" r="1"/></svg>
+              </div>
+              <h3>Control de Accesos</h3>
+              <div class="label-terminal svc-hint">[ TAP PARA VER MÁS ]</div>
+            </div>
+            <div class="flip-card-back">
+              <div class="flip-back-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8 2 5 5 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-4-3-7-7-7z"/></svg>
+              </div>
+              <h3>Control de Accesos</h3>
+              <p>Sistemas avanzados de control de accesos para empresas y edificios corporativos. Registro digital de ingresos.</p>
+              <div class="svc-tags">
+                <span>Biometría</span>
+                <span>RFID</span>
+                <span>Registro Digital</span>
+              </div>
+              <a href="#contacto" class="btn-svc">Consultar →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front svc--5">
+              <div class="svc-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+              </div>
+              <h3>Seguridad para Hospitales</h3>
+              <div class="label-terminal svc-hint">[ TAP PARA VER MÁS ]</div>
+            </div>
+            <div class="flip-card-back">
+              <div class="flip-back-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+              </div>
+              <h3>Seguridad para Hospitales</h3>
+              <p>Especialistas en seguridad para el sector salud. Protocolos adaptados a entornos hospitalarios y clínicas.</p>
+              <div class="svc-tags">
+                <span>Hospitales</span>
+                <span>Clínicas</span>
+                <span>Protocolo Salud</span>
+              </div>
+              <a href="#contacto" class="btn-svc">Consultar →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <div class="flip-card-front svc--6">
+              <div class="svc-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/><path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01"/></svg>
+              </div>
+              <h3>Seguridad para Eventos</h3>
+              <div class="label-terminal svc-hint">[ TAP PARA VER MÁS ]</div>
+            </div>
+            <div class="flip-card-back">
+              <div class="flip-back-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+              </div>
+              <h3>Seguridad para Eventos</h3>
+              <p>Cobertura de seguridad para eventos empresariales, lanzamientos y conferencias. Servicio temporal o permanente.</p>
+              <div class="svc-tags">
+                <span>Eventos</span>
+                <span>Temporal</span>
+                <span>Corporativo</span>
+              </div>
+              <a href="#contacto" class="btn-svc">Consultar →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       NOSOTROS / ABOUT
+  ════════════════════════════════════════ -->
+  <section id="nosotros" class="about-section">
+    <div class="section-container">
+      <div class="about-layout">
+
+        <div class="about-visual reveal">
+          <div class="about-eagle-wrap">
+            <div class="eagle-glow eagle-glow--large"></div>
+            <img src="images/logo.jpg" alt="ARSEC" class="about-eagle">
+            <div class="years-badge">
+              <span class="years-number" data-target="30">0</span>
+              <span>AÑOS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <div class="label-terminal">[ NUESTRA HISTORIA ]</div>
+          <h2>30 AÑOS LIDERANDO<br>LA SEGURIDAD PRIVADA</h2>
+          <p>Somos una empresa de seguridad privada comprometida con brindar un servicio personalizado y del más alto nivel. Más de 30 años de trayectoria nos posicionan como líderes en el rubro. Contamos con grandes clientes en distintas industrias: empresas, bancos, countries, hospitales, clínicas y fábricas. Innovamos constantemente en métodos, procesos y tecnología, y capacitamos a todo nuestro personal para responder de manera profesional ante distintos tipos de riesgo.</p>
+          <div class="pillars-grid">
+            <div class="pillar">
+              <span class="pillar-icon">🛡️</span>
+              <span>Personal Habilitado</span>
+            </div>
+            <div class="pillar">
+              <span class="pillar-icon">📡</span>
+              <span>Tecnología Avanzada</span>
+            </div>
+            <div class="pillar">
+              <span class="pillar-icon">🏆</span>
+              <span>+500 Clientes</span>
+            </div>
+            <div class="pillar">
+              <span class="pillar-icon">⚡</span>
+              <span>Respuesta 24/7</span>
+            </div>
+          </div>
+          <a href="#contacto" class="btn-secondary">Conocé Nuestro Equipo</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       ESTADÍSTICAS ANIMADAS
+  ════════════════════════════════════════ -->
+  <section id="estadisticas" class="stats-section">
+    <div class="section-container">
+      <div class="stats-grid">
+        <div class="stat-block reveal">
+          <div class="stat-number"><span class="counter" data-target="30">0</span><span class="stat-plus">+</span></div>
+          <div class="stat-label">Años de Experiencia</div>
+        </div>
+        <div class="stat-block reveal">
+          <div class="stat-number"><span class="counter" data-target="500">0</span><span class="stat-plus">+</span></div>
+          <div class="stat-label">Clientes Protegidos</div>
+        </div>
+        <div class="stat-block reveal">
+          <div class="stat-number"><span class="counter" data-target="11">0</span></div>
+          <div class="stat-label">Sectores Cubiertos</div>
+        </div>
+        <div class="stat-block reveal">
+          <div class="stat-number">24/7</div>
+          <div class="stat-label">Horas de Monitoreo</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       TESTIMONIOS
+  ════════════════════════════════════════ -->
+  <section id="testimonios" class="testimonials-section">
+    <div class="hex-grid hex-grid--section"></div>
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="label-terminal">[ LO QUE DICEN NUESTROS CLIENTES ]</div>
+        <h2>TESTIMONIOS</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card glass reveal">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-text">"Excellent place, very professional"</p>
+          <div class="t-author">
+            <div class="t-avatar">SP</div>
+            <div>
+              <span class="t-name">Sebastian Palacios</span>
+              <span class="t-source">Reseña de Google · 2024</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card glass reveal">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-text">"Excelente servicio, súper contento con la seguridad que brindan, mega recomendable"</p>
+          <div class="t-author">
+            <div class="t-avatar">JB</div>
+            <div>
+              <span class="t-name">Juan Belmont</span>
+              <span class="t-source">Reseña de Google · 2024</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card glass reveal">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-text">"Excelente atención, las mejores propuestas en servicios de seguridad"</p>
+          <div class="t-author">
+            <div class="t-avatar">FA</div>
+            <div>
+              <span class="t-name">Fernando Allemand</span>
+              <span class="t-source">Reseña de Google · 2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="google-link-wrap reveal">
+        <a href="https://www.google.com/maps/search/ARSEC+Seguridad+Privada" target="_blank" rel="noopener" class="google-link">
+          Ver las 113 reseñas en Google →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       FAQ
+  ════════════════════════════════════════ -->
+  <section id="faq" class="faq-section">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="label-terminal">[ PREGUNTAS FRECUENTES ]</div>
+        <h2>FAQ</h2>
+      </div>
+      <div class="faq-list">
+
+        <div class="faq-item reveal">
+          <button class="faq-q">
+            <span>¿Qué servicios de seguridad privada ofrece ARSEC?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+          <div class="faq-a">
+            <p>ARSEC ofrece una amplia gama de servicios: seguridad presencial con guardias habilitados, seguridad virtual con monitoreo de cámaras CCTV 24/7, custodia y transporte de valores, control de accesos biométrico, seguridad especializada para hospitales y sector salud, y cobertura de seguridad para eventos corporativos.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q">
+            <span>¿En qué zonas opera ARSEC?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+          <div class="faq-a">
+            <p>Operamos principalmente en la Ciudad Autónoma de Buenos Aires (CABA) y el Gran Buenos Aires (GBA). Nuestra sede central está ubicada en Av. Belgrano 1586, Piso 11, CABA. Para consultas sobre cobertura en zonas específicas, comunicate con nosotros.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q">
+            <span>¿El personal de seguridad está capacitado y habilitado?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+          <div class="faq-a">
+            <p>Sí. Todo nuestro personal cuenta con habilitación oficial ante los organismos reguladores competentes. Reciben capacitación continua en protocolos de emergencia, primeros auxilios, manejo de conflictos y tecnología de seguridad. Nuestros guardias están 100% habilitados y en constante formación.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q">
+            <span>¿Cómo funciona el servicio de seguridad virtual?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+          <div class="faq-a">
+            <p>Nuestro servicio de seguridad virtual consiste en el monitoreo en tiempo real de las cámaras de seguridad de tu empresa desde nuestra central de control operativa las 24 horas. Ante cualquier situación anormal, nuestros operadores responden de forma inmediata y coordinan con las autoridades o el personal in situ.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q">
+            <span>¿Puedo contratar el servicio por tiempo limitado?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+          <div class="faq-a">
+            <p>Sí. Ofrecemos contratos temporales adaptados a eventos, lanzamientos, temporadas de mayor actividad o necesidades puntuales. También disponemos de contratos de largo plazo con condiciones preferenciales. Contactanos para diseñar la solución que mejor se adapte a tus requerimientos.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q">
+            <span>¿Qué experiencia tiene ARSEC en el mercado?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+          <div class="faq-a">
+            <p>ARSEC cuenta con más de 30 años de trayectoria en seguridad privada en Argentina. Hemos protegido a más de 500 clientes en sectores como banca, salud, educación, industria, countries y eventos corporativos. Somos referentes del sector en Buenos Aires, con 113 reseñas en Google y una calificación de 4.0/5.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       CTA FINAL / CONTACTO
+  ════════════════════════════════════════ -->
+  <section id="contacto" class="contact-section">
+    <div class="contact-radial"></div>
+    <div class="hex-grid hex-grid--section"></div>
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="label-terminal">[ INICIAR CONTACTO ]</div>
+        <h2>¿LISTO PARA PROTEGER<br>TU EMPRESA?</h2>
+        <p class="section-desc">Pedí un presupuesto sin cargo. Te contactamos en menos de 24 horas.</p>
+      </div>
+
+      <div class="contact-layout">
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tu@empresa.com" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="+54 11 XXXX-XXXX">
+            </div>
+            <div class="form-group">
+              <label for="servicio">Servicio</label>
+              <select id="servicio" name="servicio">
+                <option value="">Seleccioná un servicio</option>
+                <option value="presencial">Seguridad Presencial</option>
+                <option value="virtual">Seguridad Virtual</option>
+                <option value="valores">Custodia de Valores</option>
+                <option value="accesos">Control de Accesos</option>
+                <option value="hospitales">Seguridad para Hospitales</option>
+                <option value="eventos">Seguridad para Eventos</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Contanos sobre tu necesidad de seguridad..."></textarea>
+          </div>
+          <button type="submit" class="btn-submit">
+            <span>ENVIAR CONSULTA</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z"/></svg>
+          </button>
+          <div class="form-success" id="formSuccess">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            Consulta enviada. Te contactamos en menos de 24 horas.
+          </div>
+        </form>
+
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.09 11 19.79 19.79 0 01.12 2.3a2 2 0 012.24-2.09 19.5 19.5 0 013 .59 2 2 0 011.4 1.35l1.2 3.65a2 2 0 01-.47 2l-1.27 1.27a16 16 0 006 6l1.27-1.27a2 2 0 012-.46l3.63 1.2a2 2 0 011.35 1.4c.23.91.35 1.85.36 2.79z"/></svg>
+            </div>
+            <div>
+              <span class="contact-label">Teléfono</span>
+              <a href="tel:+5491152630813">11 5263-0813</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <span class="contact-label">Oficina Central</span>
+              <span>Av. Belgrano 1586, Piso 11, CABA</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <span class="contact-label">Atención Comercial</span>
+              <span>Lunes a Viernes, 9:00 a 18:00 hs</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20"><path d="M12 2l7 4v6c0 4.5-3.5 8-7 10C5.5 20 2 16.5 2 12V6l7-4z"/><path d="M9 12l2 2 4-4"/></svg>
+            </div>
+            <div>
+              <span class="contact-label">Monitoreo</span>
+              <span>Central operativa 24/7/365</span>
+            </div>
+          </div>
+          <div class="contact-badge">
+            <div class="label-terminal" style="margin-bottom:12px">[ RESPUESTA GARANTIZADA ]</div>
+            <p>Te contactamos en <strong>menos de 24 horas</strong> hábiles con una propuesta personalizada sin cargo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════ -->
+  <footer class="footer" id="blog">
+    <div class="footer-watermark" aria-hidden="true">
+      <img src="images/logo.jpg" alt="">
+    </div>
+    <div class="section-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="images/logo.jpg" alt="ARSEC Seguridad Privada" height="44">
+          <p>Más de 30 años protegiendo lo que más importa. Seguridad de élite para empresas, bancos, hospitales y countries en Buenos Aires.</p>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/company/arsecseguridad" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://www.instagram.com/arsecseguridad" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://arsegseguridad.wordpress.com" target="_blank" rel="noopener" aria-label="Blog">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18"><path d="M4 11a9 9 0 0116 0"/><path d="M4 19l8-8 4 4 4-4"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="#servicios">Seguridad Presencial</a></li>
+            <li><a href="#servicios">Seguridad Virtual</a></li>
+            <li><a href="#servicios">Custodia de Valores</a></li>
+            <li><a href="#servicios">Control de Accesos</a></li>
+            <li><a href="#servicios">Seg. para Hospitales</a></li>
+            <li><a href="#servicios">Seg. para Eventos</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#clientes">Clientes</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="https://arsegseguridad.wordpress.com" target="_blank" rel="noopener">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="tel:+5491152630813">11 5263-0813</a></li>
+            <li><a href="https://wa.me/5491152630813" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><span>Av. Belgrano 1586, P. 11</span></li>
+            <li><span>Ciudad de Buenos Aires</span></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Política de Privacidad</a></li>
+            <li><a href="#">Términos de Servicio</a></li>
+            <li><a href="#">Habilitaciones</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 ARSEC Seguridad · Todos los derechos reservados</p>
+        <p>Diseño web <a href="#" rel="noopener">Javier Peral</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a href="https://wa.me/5491152630813" class="whatsapp-fab" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="whatsapp-tooltip">¡Escribinos!</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
