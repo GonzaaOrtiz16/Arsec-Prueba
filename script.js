@@ -111,17 +111,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.querySelectorAll('.counter').forEach(el => counterObserver.observe(el));
 
-  /* Years badge counter (about section) */
-  const yearsNumberEls = document.querySelectorAll('.years-number[data-target]');
-  yearsNumberEls.forEach(el => {
-    const yearObserver = new IntersectionObserver((entries) => {
+  /* Emblem counter (about section) */
+  const emblemNums = document.querySelectorAll('.emblem-num[data-target]');
+  emblemNums.forEach(el => {
+    const obs = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (!entry.isIntersecting) return;
-        animateCounter(el, parseInt(el.dataset.target, 10), 1600);
-        yearObserver.unobserve(el);
+        animateCounter(el, parseInt(el.dataset.target, 10), 1800);
+        obs.unobserve(el);
       });
-    }, { threshold: 0.5 });
-    yearObserver.observe(el);
+    }, { threshold: 0.4 });
+    obs.observe(el);
   });
 
 

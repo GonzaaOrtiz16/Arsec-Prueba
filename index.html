@@ -384,13 +384,50 @@
       <div class="about-layout">
 
         <div class="about-visual reveal">
-          <div class="about-eagle-wrap">
-            <div class="eagle-glow eagle-glow--large"></div>
-            <img src="images/logo.jpg" alt="ARSEC" class="about-eagle">
-            <div class="years-badge">
-              <span class="years-number" data-target="30">0</span>
-              <span>AÑOS</span>
+          <div class="about-emblem">
+
+            <!-- Anillos concéntricos giratorios -->
+            <div class="emblem-ring emblem-ring--1"></div>
+            <div class="emblem-ring emblem-ring--2"></div>
+            <div class="emblem-ring emblem-ring--3"></div>
+
+            <!-- Iconos en esquinas -->
+            <div class="emblem-icon emblem-icon--tl">
+              <!-- Ojo — vigilancia -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
             </div>
+            <div class="emblem-icon emblem-icon--tr">
+              <!-- Candado — seguridad -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/><circle cx="12" cy="16" r="1" fill="currentColor" stroke="none"/></svg>
+            </div>
+            <div class="emblem-icon emblem-icon--bl">
+              <!-- Cámara — monitoreo -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="5" width="16" height="11" rx="2"/><path d="M18 9l4-2v7l-4-2"/><circle cx="9" cy="10.5" r="1.5"/></svg>
+            </div>
+            <div class="emblem-icon emblem-icon--br">
+              <!-- Escudo pequeño — protección -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l7 4v6c0 4.5-3.5 8-7 10C5.5 20 2 16.5 2 12V6l7-4z"/><path d="M9 12l2 2 4-4"/></svg>
+            </div>
+
+            <!-- Escudo central con número -->
+            <div class="emblem-core">
+              <svg class="emblem-svg" viewBox="0 0 200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Escudo exterior -->
+                <path d="M100 8 L185 38 L185 118 C185 165 155 205 100 228 C45 205 15 165 15 118 L15 38 Z"
+                  fill="rgba(204,21,21,0.09)" stroke="#CC1515" stroke-width="2"/>
+                <!-- Escudo interior (línea decorativa) -->
+                <path d="M100 22 L172 48 L172 118 C172 157 148 193 100 212 C52 193 28 157 28 118 L28 48 Z"
+                  fill="rgba(204,21,21,0.04)" stroke="rgba(204,21,21,0.3)" stroke-width="1"/>
+                <!-- Línea horizontal decorativa -->
+                <line x1="38" y1="82" x2="162" y2="82" stroke="rgba(204,21,21,0.18)" stroke-width="1" stroke-dasharray="4 3"/>
+              </svg>
+              <div class="emblem-text">
+                <span class="emblem-num" data-target="30">0</span>
+                <span class="emblem-label">AÑOS</span>
+                <span class="emblem-sub">DE EXPERIENCIA</span>
+              </div>
+            </div>
+
           </div>
         </div>
 
